@@ -19,7 +19,8 @@ namespace ASPNET_Web_WebForms
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             string[] attachmentFilePaths = new[] {
-                @"E:\11.docx"};
+                @"E:\11.docx"
+            };
 
             string[] toAddressList = new string[] { "manhngdnvn202210@gmail.com", "manhngdnvn202211@gmail.com" };
             string subject = "Hello";

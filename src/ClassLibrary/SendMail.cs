@@ -33,7 +33,7 @@ namespace ClassLibrary
             //Danh sách người nhận
             if (toAddressList == null)
             {
-                throw new ArgumentNullException("Thiếu danh sách người nhận.");
+                throw new ArgumentNullException("Thiếu danh sách người nhận");
                 //toAddressList = ConfigurationManager.AppSettings["toAddressList"].Split(new char[] { ',', ';' }, StringSplitOptions.RemoveEmptyEntries);
             }
 
