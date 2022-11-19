@@ -30,5 +30,10 @@ namespace ASPNET_Web_WebForms
 
             SendMail.Send(toAddressList, subject, body, ccAddressList, bccAddressList, attachmentFilePaths);
         }
+
+        public static void Test2()
+        {
+
+        }
     }
 }

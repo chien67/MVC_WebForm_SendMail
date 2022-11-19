@@ -186,6 +186,7 @@ namespace ClassLibrary
 
             return valid;
         }
+        public static void Test() { }
     }
 }
 
